@@ -5,9 +5,16 @@
     </head>
 
     <body>
-        <h1>My Page</h1>
+        <h1>My javascript experiment page</h1>
+        <h3>1. This button will display an alert</h3>
         <!-- This is a button that will display an alert that will say Hello World when clicked -->
         <button type="button" onclick="alert('Hello World!')">Click Me!</button>
-        <p>My page is great!</p>
+        <br>
+        <Br>
+        <h3>2. This button will display the Date and time</h3>
+        <!-- This is a button that will display the date and time when clicked -->
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Click Me!</button>
+        <!-- This displays the time that the function above this tekst pulled from the computer -->
+        <p id="demo"></p>
     </body>
 </html:5>
