@@ -27,5 +27,7 @@ function submitChat() {
     if (n == "") {
         alert("Please fill in all fields");
         return false;
+    } else {
+
     }
 }
