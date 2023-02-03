@@ -19,3 +19,13 @@ function changeColor() {
 function changeColorBack() {
     document.body.style.backgroundColor = "white";
 }
+
+//moet een naam invullen en een bericht terugsturen maar werkt nog niet idfk why
+function submitChat() {
+    var n = document.getElementById("name").value;
+    var c = document.getElementById("message").value;
+    if (n == "") {
+        alert("Please fill in all fields");
+        return false;
+    }
+}
